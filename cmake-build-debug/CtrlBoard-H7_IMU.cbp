@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CtrlBoard-H7_IMU"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CtrlBoard-H7_IMU.elf">
+				<Option output="C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/CtrlBoard-H7_IMU.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H723xx"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/PID"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/VMC"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Controller"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/DM_Motor"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Lib"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 CtrlBoard-H7_IMU.elf"/>
+					<CompileFile command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CtrlBoard-H7_IMU.elf/fast">
+				<Option output="C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/CtrlBoard-H7_IMU.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32H723xx"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/PID"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/VMC"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Controller"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/DM_Motor"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Lib"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-rel1\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 CtrlBoard-H7_IMU.elf/fast"/>
+					<CompileFile command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lumos/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/FreeRTOSConfig.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/dma.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/fdcan.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/gpio.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/main.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/spi.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/stm32h7xx_hal_conf.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/stm32h7xx_it.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/tim.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/dma.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/fdcan.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/freertos.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/gpio.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/main.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/spi.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/stm32h7xx_hal_msp.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/stm32h7xx_hal_timebase_tim.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/stm32h7xx_it.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/syscalls.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/sysmem.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/system_stm32h7xx.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/tim.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Startup/startup_stm32h723vgtx.s">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/LICENSE.txt">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/LICENSE.txt">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_bus.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_cortex.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_crs.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dma.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_dmamux.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_exti.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_gpio.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_hsem.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_pwr.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_rcc.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_spi.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_system.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_tim.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_utils.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/STM32H723VGTX_FLASH.ld">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/INS_task.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/INS_task.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/chassisL_task.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/chassisL_task.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/chassisR_task.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/chassisR_task.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/observe_task.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/observe_task.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/ps2_task.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP/ps2_task.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF/QuaternionEKF.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF/QuaternionEKF.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/PID/pid.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/PID/pid.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman/kalman_filter.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman/kalman_filter.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony/mahony_filter.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony/mahony_filter.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp/bsp_PWM.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp/bsp_PWM.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp/bsp_dwt.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp/bsp_dwt.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp/can_bsp.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp/can_bsp.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp/struct_typedef.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Controller/controller.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Controller/controller.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088/BMI088Middleware.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088/BMI088Middleware.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088/BMI088reg.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Lib/user_lib.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Lib/user_lib.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
