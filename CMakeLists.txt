@@ -56,6 +56,7 @@ include_directories(Core/Inc
         Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
         Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
         Drivers/CMSIS/Device/ST/STM32H7xx/Include Drivers/CMSIS/Include
+        Drivers/CMSIS/DSP/Include
         User/Algorithm/EKF
         User/Algorithm/kalman
         User/Algorithm/mahony
@@ -84,6 +85,10 @@ add_link_options(-mcpu=cortex-m7 -mthumb -mthumb-interwork)
 add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
+
+target_link_libraries(${PROJECT_NAME}.elf
+        "C:\\Users\\Lumos\\Documents\\GitHub\\DM-bot\\Drivers\\CMSIS\\DSP\\Lib\\ARM\\arm_cortexM7lfdp_math.lib"
+)
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)

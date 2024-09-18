@@ -55,6 +55,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Devices/BMI088/BMI088driver.c.obj: \
  C:\Users\Lumos\Documents\GitHub\DM-bot\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Bsp/struct_typedef.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\User\Bsp/bsp_dwt.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Devices\BMI088\BMI088reg.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\User\Devices\BMI088\BMI088Middleware.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\User\Bsp/bsp_dwt.h
+ C:\Users\Lumos\Documents\GitHub\DM-bot\User\Devices\BMI088\BMI088Middleware.h

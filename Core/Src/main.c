@@ -27,7 +27,12 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "BMI088driver.h"
+#include "kalman_filter.h"
+#include "mahony_filter.h"
+#include "bsp_dwt.h"
+#include "BMI088Middleware.h"
+#include "can_bsp.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

@@ -32,6 +32,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Include"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony"

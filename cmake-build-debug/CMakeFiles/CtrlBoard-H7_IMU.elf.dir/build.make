@@ -1082,6 +1082,7 @@ CtrlBoard-H7_IMU.elf: CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Devices/BMI088/BM
 CtrlBoard-H7_IMU.elf: CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Devices/DM_Motor/dm4310_drv.c.obj
 CtrlBoard-H7_IMU.elf: CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj
 CtrlBoard-H7_IMU.elf: CMakeFiles/CtrlBoard-H7_IMU.elf.dir/build.make
+CtrlBoard-H7_IMU.elf: C:\\Users\\Lumos\\Documents\\GitHub\\DM-bot\\Drivers\\CMSIS\\DSP\\Lib\\ARM\\arm_cortexM7lfdp_math.lib
 CtrlBoard-H7_IMU.elf: CMakeFiles/CtrlBoard-H7_IMU.elf.dir/objects1.rsp
 CtrlBoard-H7_IMU.elf: CMakeFiles/CtrlBoard-H7_IMU.elf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Lumos\Documents\GitHub\DM-bot\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking C executable CtrlBoard-H7_IMU.elf"

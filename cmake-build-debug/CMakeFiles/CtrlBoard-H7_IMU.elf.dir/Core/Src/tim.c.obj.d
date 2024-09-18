@@ -55,4 +55,5 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/tim.c.obj: \
  C:\Users\Lumos\Documents\GitHub\DM-bot\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\Drivers\STM32H7xx_HAL_Driver\Inc/stm32h7xx_hal_tim_ex.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Bsp/struct_typedef.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Core\Inc/main.h
+ C:\Users\Lumos\Documents\GitHub\DM-bot\Core\Inc/main.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\User\Bsp/bsp_dwt.h
