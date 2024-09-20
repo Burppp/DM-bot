@@ -1,7 +1,7 @@
 /**
   *********************************************************************
   * @file      ins_task.c/h
-  * @brief     该任务是用mahony方法获取机体姿态，同时获取机体在绝对坐标系下的运动加速度
+  * @brief     ??????????mahony??????????????????????????????????????????????
   * @note       
   * @history
   *
@@ -71,34 +71,34 @@ void INS_task(void)
 		INS.q[2]=mahony.q2;
 		INS.q[3]=mahony.q3;
        
-      // 将重力从导航坐标系n转换到机体系b,随后根据加速度计数据计算运动加速度
+      // ????????????????n??????????b,??????????????????????????
 		float gravity_b[3];
     EarthFrameToBodyFrame(gravity, gravity_b, INS.q);
-    for (uint8_t i = 0; i < 3; i++) // 同样过一个低通滤波
+    for (uint8_t i = 0; i < 3; i++) // ??????????????
     {
       INS.MotionAccel_b[i] = (INS.Accel[i] - gravity_b[i]) * ins_dt / (INS.AccelLPF + ins_dt) 
 														+ INS.MotionAccel_b[i] * INS.AccelLPF / (INS.AccelLPF + ins_dt); 
 //			INS.MotionAccel_b[i] = (INS.Accel[i] ) * dt / (INS.AccelLPF + dt) 
 //														+ INS.MotionAccel_b[i] * INS.AccelLPF / (INS.AccelLPF + dt);			
 		}
-		BodyFrameToEarthFrame(INS.MotionAccel_b, INS.MotionAccel_n, INS.q); // 转换回导航系n
+		BodyFrameToEarthFrame(INS.MotionAccel_b, INS.MotionAccel_n, INS.q); // ?????????n
 		
-		//死区处理
+		//????????
 		if(fabsf(INS.MotionAccel_n[0])<0.02f)
 		{
-		  INS.MotionAccel_n[0]=0.0f;	//x轴
+		  INS.MotionAccel_n[0]=0.0f;	//x??
 		}
 		if(fabsf(INS.MotionAccel_n[1])<0.02f)
 		{
-		  INS.MotionAccel_n[1]=0.0f;	//y轴
+		  INS.MotionAccel_n[1]=0.0f;	//y??
 		}
 		if(fabsf(INS.MotionAccel_n[2])<0.04f)
 		{
-		  INS.MotionAccel_n[2]=0.0f;//z轴
+		  INS.MotionAccel_n[2]=0.0f;//z??
 			stop_time++;
 		}
 		if(stop_time>10)
-		{//静止10ms
+		{//???10ms
 		  stop_time=0;
 			INS.v_n=0.0f;
 		}
@@ -107,8 +107,8 @@ void INS_task(void)
 		{
 			INS.v_n=INS.v_n+INS.MotionAccel_n[1]*0.001f;
 		  INS.x_n=INS.x_n+INS.v_n*0.001f;
-			INS.ins_flag=1;//四元数基本收敛，加速度也基本收敛，可以开始底盘任务
-			// 获取最终数据
+			INS.ins_flag=1;//?????????????????????????????????????????????
+			// ???????????
       INS.Pitch=mahony.roll;
 		  INS.Roll=mahony.pitch;
 		  INS.Yaw=mahony.yaw;

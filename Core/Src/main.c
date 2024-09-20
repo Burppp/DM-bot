@@ -107,7 +107,18 @@ int main(void)
   MX_TIM3_Init();
   MX_FDCAN3_Init();
   /* USER CODE BEGIN 2 */
+    DWT_Init(480);
 
+    /* BMI088初始化 *///之前已经对角速度和加速度的零飘校准过了，所以之后上电就不需要校准。如果硬件设备更换，则需要重新校准下
+    while (BMI088_init(&hspi2, 0) != BMI088_NO_ERROR)
+    {
+        ;
+    }
+    Power_OUT1_ON;//imu初始化完成，可控电源打开，led灯亮
+    Power_OUT2_ON;
+
+    FDCAN1_Config();//can过滤器初始化
+    FDCAN2_Config();
   /* USER CODE END 2 */
 
   /* Call init function for freertos objects (in freertos.c) */

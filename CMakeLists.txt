@@ -56,7 +56,8 @@ include_directories(Core/Inc
         Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
         Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
         Drivers/CMSIS/Device/ST/STM32H7xx/Include Drivers/CMSIS/Include
-        Drivers/CMSIS/DSP/Include
+        CMSIS/DSP/Inc
+        CMSIS/DSP/Inc/dsp
         User/Algorithm/EKF
         User/Algorithm/kalman
         User/Algorithm/mahony
@@ -76,6 +77,16 @@ file(GLOB_RECURSE SOURCES "Core/*.*"
         "Middlewares/*.*"
         "Drivers/*.*"
         "User/*.*"
+        "CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c"
+        "CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c"
+        "CMSIS/DSP/Core/CommonTables/arm_common_tables.c"
+        "CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c"
+        "CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c"
+        "CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c"
+        "CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c"
+        "CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c"
+        "CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c"
+        "CMSIS/Core/*.*"
 )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32H723VGTX_FLASH.ld)
@@ -85,10 +96,6 @@ add_link_options(-mcpu=cortex-m7 -mthumb -mthumb-interwork)
 add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
-
-target_link_libraries(${PROJECT_NAME}.elf
-        "C:\\Users\\Lumos\\Documents\\GitHub\\DM-bot\\Drivers\\CMSIS\\DSP\\Lib\\ARM\\arm_cortexM7lfdp_math.lib"
-)
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)

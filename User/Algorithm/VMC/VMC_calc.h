@@ -3,6 +3,7 @@
 
 #include "main.h"
 #include "INS_task.h"
+#include "fast_math_functions.h"
 
 #define pi 3.1415926f
 #define LEG_PID_KP  350.0f
@@ -69,7 +70,7 @@ extern uint8_t ground_detectionR(vmc_leg_t *vmc,INS_t *ins);//”“Õ»¿ÎµÿºÏ≤‚
 extern uint8_t ground_detectionL(vmc_leg_t *vmc,INS_t *ins);//◊ÛÕ»¿ÎµÿºÏ≤‚
 
 extern float LQR_K_calc(float *coe,float len);
-	
+
 #endif
 
 

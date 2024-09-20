@@ -38,7 +38,8 @@
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Include"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc/dsp"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony"/>
@@ -85,7 +86,8 @@
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Include"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc"/>
+					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc/dsp"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman"/>
 					<Add directory="C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony"/>
@@ -132,6 +134,105 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/cmsis_armcc.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/cmsis_armclang.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/cmsis_armclang_ltm.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/cmsis_compiler.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/cmsis_gcc.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/cmsis_iccarm.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/cmsis_version.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_armv81mml.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_armv8mbl.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_armv8mml.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm0.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm0plus.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm1.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm23.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm3.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm33.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm35p.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm4.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_cm7.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_sc000.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/core_sc300.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/mpu_armv7.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/mpu_armv8.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/Core/Inc/tz_context.h">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/CommonTables/arm_common_tables.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c">
+			<Option target="CtrlBoard-H7_IMU.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc/FreeRTOSConfig.h">
 			<Option target="CtrlBoard-H7_IMU.elf"/>
 		</Unit>
@@ -199,72 +300,6 @@
 			<Option target="CtrlBoard-H7_IMU.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Startup/startup_stm32h723vgtx.s">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Include/arm_common_tables.h">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Include/arm_const_structs.h">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Include/arm_math.h">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_ARMv8MBLl_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_ARMv8MMLl_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_ARMv8MMLld_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_ARMv8MMLldfsp_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_ARMv8MMLlfsp_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM0b_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM0l_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM3b_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM3l_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM4b_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM4bf_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM4l_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM4lf_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM7b_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM7bfdp_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM7bfsp_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM7l_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM7lfdp_math.lib">
-			<Option target="CtrlBoard-H7_IMU.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Lib/ARM/arm_cortexM7lfsp_math.lib">
 			<Option target="CtrlBoard-H7_IMU.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h">

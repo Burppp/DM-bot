@@ -76,13 +76,44 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Devices\BMI088/BMI088driver.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Algorithm\EKF/QuaternionEKF.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Algorithm\kalman/kalman_filter.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Drivers\CMSIS\DSP\Include/arm_math.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/arm_math.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/arm_math_types.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\Drivers\CMSIS\Include/cmsis_compiler.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\string.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\_locale.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\strings.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\string.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\lib\gcc\arm-none-eabi\12.2.1\include\float.h \
+ c:\progra~2\armgnu~1\12977f~1.2mp\lib\gcc\arm-none-eabi\12.2.1\include-fixed\limits.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/arm_math_memory.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/none.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/arm_math_types.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/utils.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/basic_math_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/arm_math_memory.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/none.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/utils.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/interpolation_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/bayes_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/statistics_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/basic_math_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/fast_math_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/matrix_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/complex_math_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/statistics_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/controller_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/support_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/distance_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/matrix_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/svm_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/svm_defines.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/fast_math_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/transform_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/complex_math_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/filtering_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/support_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/quaternion_math_functions.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc/dsp/window_functions.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\stdlib.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\machine\stdlib.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\alloca.h \
@@ -93,6 +124,7 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Bsp/can_bsp.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Algorithm\PID/pid.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\Algorithm\VMC/VMC_calc.h \
+ C:\Users\Lumos\Documents\GitHub\DM-bot\CMSIS\DSP\Inc\dsp/fast_math_functions.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\APP/INS_task.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\APP/chassisL_task.h \
  C:\Users\Lumos\Documents\GitHub\DM-bot\User\APP/chassisR_task.h \

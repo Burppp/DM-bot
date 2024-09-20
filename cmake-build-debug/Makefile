@@ -128,6 +128,222 @@ CtrlBoard-H7_IMU.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/build
 .PHONY : CtrlBoard-H7_IMU.elf/fast
 
+CMSIS/DSP/Core/CommonTables/arm_common_tables.obj: CMSIS/DSP/Core/CommonTables/arm_common_tables.c.obj
+.PHONY : CMSIS/DSP/Core/CommonTables/arm_common_tables.obj
+
+# target to build an object file
+CMSIS/DSP/Core/CommonTables/arm_common_tables.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/CommonTables/arm_common_tables.c.obj
+.PHONY : CMSIS/DSP/Core/CommonTables/arm_common_tables.c.obj
+
+CMSIS/DSP/Core/CommonTables/arm_common_tables.i: CMSIS/DSP/Core/CommonTables/arm_common_tables.c.i
+.PHONY : CMSIS/DSP/Core/CommonTables/arm_common_tables.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/CommonTables/arm_common_tables.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/CommonTables/arm_common_tables.c.i
+.PHONY : CMSIS/DSP/Core/CommonTables/arm_common_tables.c.i
+
+CMSIS/DSP/Core/CommonTables/arm_common_tables.s: CMSIS/DSP/Core/CommonTables/arm_common_tables.c.s
+.PHONY : CMSIS/DSP/Core/CommonTables/arm_common_tables.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/CommonTables/arm_common_tables.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/CommonTables/arm_common_tables.c.s
+.PHONY : CMSIS/DSP/Core/CommonTables/arm_common_tables.c.s
+
+CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.obj: CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.obj
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.obj
+
+# target to build an object file
+CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.obj
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.obj
+
+CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.i: CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.i
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.i
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.i
+
+CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.s: CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.s
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.s
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.s
+
+CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.obj: CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.obj
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.obj
+
+# target to build an object file
+CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.obj
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.obj
+
+CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.i: CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.i
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.i
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.i
+
+CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.s: CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.s
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.s
+.PHONY : CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.s
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.obj: CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.obj
+
+# target to build an object file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.obj
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.i: CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.i
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.s: CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.s
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.obj: CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.obj
+
+# target to build an object file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.obj
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.i: CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.i
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.s: CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.s
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.obj: CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.obj
+
+# target to build an object file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.obj
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.i: CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.i
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.s: CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.s
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.obj: CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.obj
+
+# target to build an object file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.obj
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.i: CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.i
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.s: CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.s
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.obj: CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.obj
+
+# target to build an object file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.obj
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.i: CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.i
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.s: CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.s
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.obj: CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.obj
+
+# target to build an object file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.obj
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.obj
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.i: CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.i
+
+# target to preprocess a source file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.i
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.i
+
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.s: CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.s
+
+# target to generate assembly for a file
+CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CtrlBoard-H7_IMU.elf.dir\build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.s
+.PHONY : CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.s
+
 Core/Src/dma.obj: Core/Src/dma.c.obj
 .PHONY : Core/Src/dma.obj
 
@@ -1633,6 +1849,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CtrlBoard-H7_IMU.elf
+	@echo ... CMSIS/DSP/Core/CommonTables/arm_common_tables.obj
+	@echo ... CMSIS/DSP/Core/CommonTables/arm_common_tables.i
+	@echo ... CMSIS/DSP/Core/CommonTables/arm_common_tables.s
+	@echo ... CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.obj
+	@echo ... CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.i
+	@echo ... CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.s
+	@echo ... CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.obj
+	@echo ... CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.i
+	@echo ... CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.s
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.obj
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.i
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.s
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.obj
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.i
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.s
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.obj
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.i
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.s
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.obj
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.i
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.s
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.obj
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.i
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.s
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.obj
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.i
+	@echo ... CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.s
 	@echo ... Core/Src/dma.obj
 	@echo ... Core/Src/dma.i
 	@echo ... Core/Src/dma.s

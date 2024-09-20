@@ -32,7 +32,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include"
-  "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/DSP/Include"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc/dsp"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony"
@@ -48,6 +49,15 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/CommonTables/arm_common_tables.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/CommonTables/arm_common_tables.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/CommonTables/arm_common_tables.c.obj.d"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_cos_f32.c.obj.d"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c.obj.d"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_add_f32.c.obj.d"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c.obj.d"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c.obj.d"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c.obj.d"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c.obj.d"
+  "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/CMSIS/DSP/Core/MatrixFunctions/arm_mat_trans_f32.c.obj.d"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/dma.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/dma.c.obj.d"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/fdcan.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/fdcan.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/fdcan.c.obj.d"
   "C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Src/freertos.c" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj.d"
