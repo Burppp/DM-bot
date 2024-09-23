@@ -49,13 +49,13 @@ typedef struct kf_t
     uint8_t UseAutoAdjustment;
     uint8_t MeasurementValidNum;
 
-    uint8_t *MeasurementMap;      // ������״̬�Ĺ�ϵ how measurement relates to the state
-    float *MeasurementDegree;     // ����ֵ��ӦH����Ԫ��ֵ elements of each measurement in H
-    float *MatR_DiagonalElements; // ���ⷽ�� variance for each measurement
-    float *StateMinVariance;      // ��С���� ���ⷽ��������� suppress filter excessive convergence
+    uint8_t *MeasurementMap;      // ???????????? how measurement relates to the state
+    float *MeasurementDegree;     // ????????H???????? elements of each measurement in H
+    float *MatR_DiagonalElements; // ?????? variance for each measurement
+    float *StateMinVariance;      // ??��???? ????????????? suppress filter excessive convergence
     uint8_t *temp;
 
-    // ����û����庯��ʹ��,��Ϊ��־λ�����ж��Ƿ�Ҫ������׼KF����������е�����һ��
+    // ?????????��?????,??????��?????��????????????KF??????????��????????
     uint8_t SkipEq1, SkipEq2, SkipEq3, SkipEq4, SkipEq5;
 
     // definiion of struct mat: rows & cols & pointer to vars
@@ -75,7 +75,7 @@ typedef struct kf_t
 
     int8_t MatStatus;
 
-    // �û����庯��,�����滻����չ��׼KF�Ĺ���
+    // ??????��??,?????�I????????KF?????
     void (*User_Func0_f)(struct kf_t *kf);
     void (*User_Func1_f)(struct kf_t *kf);
     void (*User_Func2_f)(struct kf_t *kf);
@@ -84,7 +84,7 @@ typedef struct kf_t
     void (*User_Func5_f)(struct kf_t *kf);
     void (*User_Func6_f)(struct kf_t *kf);
     
-    // ����洢�ռ�ָ��
+    // ????��??????
     float *xhat_data, *xhatminus_data;
     float *u_data;
     float *z_data;

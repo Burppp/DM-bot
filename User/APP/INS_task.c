@@ -13,7 +13,7 @@
   *********************************************************************
   */
 	
-#include "ins_task.h"
+#include "INS_task.h"
 #include "controller.h"
 #include "QuaternionEKF.h"
 #include "bsp_PWM.h"

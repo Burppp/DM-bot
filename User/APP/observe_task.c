@@ -84,7 +84,7 @@ void xvEstimateKF_Init(KalmanFilter_t *EstimateKF)
 {
     Kalman_Filter_Init(EstimateKF, 2, 0, 2);	// 状态向量2维 没有控制量 测量向量2维
 	
-		memcpy(EstimateKF->F_data, vaEstimateKF_F, sizeof(vaEstimateKF_F));
+	memcpy(EstimateKF->F_data, vaEstimateKF_F, sizeof(vaEstimateKF_F));
     memcpy(EstimateKF->P_data, vaEstimateKF_P, sizeof(vaEstimateKF_P));
     memcpy(EstimateKF->Q_data, vaEstimateKF_Q, sizeof(vaEstimateKF_Q));
     memcpy(EstimateKF->R_data, vaEstimateKF_R, sizeof(vaEstimateKF_R));

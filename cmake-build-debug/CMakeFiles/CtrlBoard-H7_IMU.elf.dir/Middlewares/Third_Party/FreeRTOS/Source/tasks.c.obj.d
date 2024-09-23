@@ -1,39 +1,27 @@
 CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\tasks.c \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\stdlib.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\machine\ieeefp.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\_ansi.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\newlib.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\_newlib_version.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\config.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\features.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\reent.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\_ansi.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\_types.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\machine\_types.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\machine\_default_types.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\lock.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\cdefs.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\machine\stdlib.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\alloca.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\string.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\_locale.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\strings.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\string.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\stdint.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\_intsup.h \
- c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\_stdint.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Core\Inc/FreeRTOSConfig.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
- C:\Users\Lumos\Documents\GitHub\DM-bot\Middlewares\Third_Party\FreeRTOS\Source\include/stack_macros.h
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/sys/features.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/FreeRTOSConfig.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h

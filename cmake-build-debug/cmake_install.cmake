@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Lumos/Documents/GitHub/DM-bot
+# Install script for directory: /home/ubuntu/文档/GitHub/DM-bot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CtrlBoard-H7_IMU")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/文档/GitHub/DM-bot/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
