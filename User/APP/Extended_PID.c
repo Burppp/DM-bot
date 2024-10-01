@@ -10,6 +10,7 @@
 #include "dm4310_drv.h"
 
 extern INS_t INS;
+PID_t PID_Example;
 Joint_Motor_t Motor;
 
 void Extended_PID_task(void)
@@ -19,6 +20,7 @@ void Extended_PID_task(void)
         osDelay(1);
     }
 
+    Extended_PID_Init(&Motor, &PID_Example);
     while(1)
     {
 
@@ -26,7 +28,12 @@ void Extended_PID_task(void)
     }
 }
 
-void Extended_PID_Init(Joint_Motor_t *_Motor)
+void Extended_PID_Init(Joint_Motor_t *_Motor, PID_t *_PID)
 {
+    PID_Init(_PID, 5.f, 2.f, 0.1f,
+        1.f, 0.f, 0.f,
+        100.f, 100.f, 0.f,
+        0.f, 0.f, 0.f);
 
+    joint_motor_init(_Motor, 0x01, SPEED_MODE);
 }

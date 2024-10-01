@@ -119,4 +119,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: \
  /home/ubuntu/文档/GitHub/DM-bot/User/APP/observe_task.h \
  /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisL_task.h \
  /home/ubuntu/文档/GitHub/DM-bot/User/APP/ps2_task.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/Extended_PID.h
+ /home/ubuntu/文档/GitHub/DM-bot/User/APP/Extended_PID.h \
+ /home/ubuntu/文档/GitHub/DM-bot/User/Controller/controller.h \
+ /home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.h
