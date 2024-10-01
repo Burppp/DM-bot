@@ -470,8 +470,10 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: /home/ubuntu/文档
   /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h \
   /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.h \
   /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Controller/controller.h \
   /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.h \
   /home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
@@ -3918,10 +3920,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj: /home/ubuntu/文档
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_PWM.h:
 
-/home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/User/Controller/controller.h:
-
 /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c:
@@ -3957,6 +3955,12 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj: /home/ubuntu/文档
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Core/Src/tim.c:
 
 /home/ubuntu/文档/GitHub/DM-bot/Core/Src/fdcan.c:
 
@@ -4075,8 +4079,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj: /home/ubuntu/文档
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Core/Src/tim.c:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h:
 
@@ -4252,6 +4254,10 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj: /home/ubuntu/文档
 
 /home/ubuntu/文档/GitHub/DM-bot/User/APP/ps2_task.h:
 
+/home/ubuntu/文档/GitHub/DM-bot/User/Controller/controller.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.h:
+
 /usr/include/newlib/alloca.h:
 
 /usr/include/newlib/machine/stdlib.h:
@@ -4335,7 +4341,3 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj: /home/ubuntu/文档
 /usr/include/newlib/time.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Core/Src/sysmem.c:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c:

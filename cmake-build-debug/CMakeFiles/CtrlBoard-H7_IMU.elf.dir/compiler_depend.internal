@@ -482,8 +482,10 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj
  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h
  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.h
  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h
+ /home/ubuntu/文档/GitHub/DM-bot/User/Controller/controller.h
  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.h
  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h
+ /home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.h
  /usr/include/newlib/_ansi.h
  /usr/include/newlib/_newlib_version.h
  /usr/include/newlib/alloca.h

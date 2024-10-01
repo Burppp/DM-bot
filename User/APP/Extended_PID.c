@@ -23,7 +23,8 @@ void Extended_PID_task(void)
     Extended_PID_Init(&Motor, &PID_Example);
     while(1)
     {
-
+        PID_Calculate(&PID_Example, )
+        speed_ctrl(&hfdcan1, Motor.para.id, 0);
         osDelay(1);
     }
 }
@@ -36,4 +37,9 @@ void Extended_PID_Init(Joint_Motor_t *_Motor, PID_t *_PID)
         0.f, 0.f, 0.f);
 
     joint_motor_init(_Motor, 0x01, SPEED_MODE);
+    for(int i = 0;i < 10;i++)
+    {
+        enable_motor_mode(&hfdcan1, _Motor->para.id, SPEED_MODE);
+        osDelay(1);
+    }
 }
