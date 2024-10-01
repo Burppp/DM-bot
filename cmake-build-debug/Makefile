@@ -1409,6 +1409,30 @@ Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrlBoard-H7_IMU.elf.dir/build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
 
+User/APP/Extended_PID.obj: User/APP/Extended_PID.c.obj
+.PHONY : User/APP/Extended_PID.obj
+
+# target to build an object file
+User/APP/Extended_PID.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrlBoard-H7_IMU.elf.dir/build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/Extended_PID.c.obj
+.PHONY : User/APP/Extended_PID.c.obj
+
+User/APP/Extended_PID.i: User/APP/Extended_PID.c.i
+.PHONY : User/APP/Extended_PID.i
+
+# target to preprocess a source file
+User/APP/Extended_PID.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrlBoard-H7_IMU.elf.dir/build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/Extended_PID.c.i
+.PHONY : User/APP/Extended_PID.c.i
+
+User/APP/Extended_PID.s: User/APP/Extended_PID.c.s
+.PHONY : User/APP/Extended_PID.s
+
+# target to generate assembly for a file
+User/APP/Extended_PID.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CtrlBoard-H7_IMU.elf.dir/build.make CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/Extended_PID.c.s
+.PHONY : User/APP/Extended_PID.c.s
+
 User/APP/INS_task.obj: User/APP/INS_task.c.obj
 .PHONY : User/APP/INS_task.obj
 
@@ -2010,6 +2034,9 @@ help:
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/timers.obj"
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/timers.i"
 	@echo "... Middlewares/Third_Party/FreeRTOS/Source/timers.s"
+	@echo "... User/APP/Extended_PID.obj"
+	@echo "... User/APP/Extended_PID.i"
+	@echo "... User/APP/Extended_PID.s"
 	@echo "... User/APP/INS_task.obj"
 	@echo "... User/APP/INS_task.i"
 	@echo "... User/APP/INS_task.s"

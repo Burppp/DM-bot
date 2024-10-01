@@ -1,16 +1,6 @@
-CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: \
- /home/ubuntu/文档/GitHub/DM-bot/Core/Src/freertos.c \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
- /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
- /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
- /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/FreeRTOSConfig.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/Extended_PID.c.obj: \
+ /home/ubuntu/文档/GitHub/DM-bot/User/APP/Extended_PID.c \
+ /home/ubuntu/文档/GitHub/DM-bot/User/APP/Extended_PID.h \
  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/stm32h7xx_hal_conf.h \
@@ -19,12 +9,14 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm7.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_version.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_compiler.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv7.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
  /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
  /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
@@ -55,14 +47,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: \
  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h \
  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  /home/ubuntu/文档/GitHub/DM-bot/User/APP/INS_task.h \
  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.h \
  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/EKF/QuaternionEKF.h \
@@ -105,18 +89,26 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: \
  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/window_functions.h \
  /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
  /usr/include/newlib/alloca.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisR_task.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/FreeRTOSConfig.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+ /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ /home/ubuntu/文档/GitHub/DM-bot/User/Controller/controller.h \
+ /home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.h \
  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h \
  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/fdcan.h \
  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/PID/pid.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.h \
- /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/fast_math_functions.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/INS_task.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisL_task.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisR_task.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/observe_task.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisL_task.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/ps2_task.h \
- /home/ubuntu/文档/GitHub/DM-bot/User/APP/Extended_PID.h
+ /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.h

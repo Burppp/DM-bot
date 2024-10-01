@@ -30,6 +30,7 @@
 #include "chassisL_task.h"
 #include "observe_task.h"
 #include "ps2_task.h"
+#include "Extended_PID.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,7 +50,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
-
+osThreadId ExtendedPIDTaskHandle;
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
 osThreadId INS_TASKHandle;
@@ -60,7 +61,7 @@ osThreadId PS2_TASKHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
-
+void ExtendedPID_Task(void const * argument);
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void const * argument);
@@ -108,23 +109,25 @@ void MX_FREERTOS_Init(void) {
     INS_TASKHandle = osThreadCreate(osThread(INS_TASK), NULL);
 
     /* definition and creation of CHASSISR_TASK */
-    osThreadDef(CHASSISR_TASK, ChassisR_Task, osPriorityAboveNormal, 0, 512);
-    CHASSISR_TASKHandle = osThreadCreate(osThread(CHASSISR_TASK), NULL);
+    // osThreadDef(CHASSISR_TASK, ChassisR_Task, osPriorityAboveNormal, 0, 512);
+    // CHASSISR_TASKHandle = osThreadCreate(osThread(CHASSISR_TASK), NULL);
 
     /* definition and creation of CHASSISL_TASK */
-    osThreadDef(CHASSISL_TASK, ChassisL_Task, osPriorityAboveNormal, 0, 512);
-    CHASSISL_TASKHandle = osThreadCreate(osThread(CHASSISL_TASK), NULL);
+    // osThreadDef(CHASSISL_TASK, ChassisL_Task, osPriorityAboveNormal, 0, 512);
+    // CHASSISL_TASKHandle = osThreadCreate(osThread(CHASSISL_TASK), NULL);
 
     /* definition and creation of OBSERVE_TASK */
-    osThreadDef(OBSERVE_TASK, OBSERVE_Task, osPriorityHigh, 0, 512);
-    OBSERVE_TASKHandle = osThreadCreate(osThread(OBSERVE_TASK), NULL);
+    // osThreadDef(OBSERVE_TASK, OBSERVE_Task, osPriorityHigh, 0, 512);
+    // OBSERVE_TASKHandle = osThreadCreate(osThread(OBSERVE_TASK), NULL);
 
     /* definition and creation of PS2_TASK */
-    osThreadDef(PS2_TASK, PS2_Task, osPriorityAboveNormal, 0, 128);
-    PS2_TASKHandle = osThreadCreate(osThread(PS2_TASK), NULL);
+    // osThreadDef(PS2_TASK, PS2_Task, osPriorityAboveNormal, 0, 128);
+    // PS2_TASKHandle = osThreadCreate(osThread(PS2_TASK), NULL);
 
     /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
+    osThreadDef(ExtendedPID_TASK, ExtendedPID_Task, osPriorityAboveNormal, 0, 512);
+    ExtendedPIDTaskHandle = osThreadCreate(osThread(ExtendedPID_TASK), NULL);
     /* USER CODE END RTOS_THREADS */
 
 }
@@ -240,5 +243,11 @@ void PS2_Task(void const * argument)
 
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
-
+void ExtendedPID_Task(void const * argument)
+{
+    for(;;)
+    {
+        Extended_PID_task();
+    }
+}
 /* USER CODE END Application */

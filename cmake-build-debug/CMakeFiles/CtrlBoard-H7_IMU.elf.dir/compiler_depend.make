@@ -386,6 +386,116 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/fdcan.c.obj: /home/ubuntu/文档/Gi
   /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
 
+CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/freertos.c.obj: /home/ubuntu/文档/GitHub/DM-bot/Core/Src/freertos.c \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math_memory.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math_types.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/basic_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/bayes_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/complex_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/controller_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/distance_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/fast_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/filtering_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/interpolation_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/matrix_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/none.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/quaternion_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/statistics_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/support_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/svm_defines.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/svm_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/transform_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/utils.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/window_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/FreeRTOSConfig.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/stm32h7xx_hal_conf.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_version.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/APP/INS_task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisL_task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisR_task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/APP/observe_task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/APP/ps2_task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/EKF/QuaternionEKF.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/PID/pid.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/kalman/kalman_filter.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/float.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
 CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Core/Src/gpio.c.obj: /home/ubuntu/文档/GitHub/DM-bot/Core/Src/gpio.c \
   /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/gpio.h \
   /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
@@ -2677,6 +2787,114 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/observe_task.c.obj: /home/ubuntu/�
   /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
 
+CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/ps2_task.c.obj: /home/ubuntu/文档/GitHub/DM-bot/User/APP/ps2_task.c \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math_memory.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math_types.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/basic_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/bayes_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/complex_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/controller_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/distance_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/fast_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/filtering_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/interpolation_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/matrix_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/none.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/quaternion_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/statistics_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/support_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/svm_defines.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/svm_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/transform_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/utils.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/window_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/FreeRTOSConfig.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/stm32h7xx_hal_conf.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_version.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/APP/INS_task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisR_task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/APP/ps2_task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/EKF/QuaternionEKF.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/PID/pid.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/kalman/kalman_filter.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/float.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
 CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Algorithm/EKF/QuaternionEKF.c.obj: /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/EKF/QuaternionEKF.c \
   /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math.h \
   /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math_memory.h \
@@ -3301,6 +3519,280 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
   /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
 
+CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Devices/BMI088/BMI088Middleware.c.obj: /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088Middleware.c \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/stm32h7xx_hal_conf.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_version.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088Middleware.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
+CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Devices/BMI088/BMI088driver.c.obj: /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.c \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/stm32h7xx_hal_conf.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_version.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088Middleware.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088reg.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
+CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Devices/DM_Motor/dm4310_drv.c.obj: /home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.c \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math_memory.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math_types.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/basic_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/bayes_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/complex_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/controller_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/distance_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/fast_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/filtering_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/interpolation_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/matrix_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/none.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/quaternion_math_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/statistics_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/support_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/svm_defines.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/svm_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/transform_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/utils.h \
+  /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/window_functions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/stm32h7xx_hal_conf.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_version.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed/limits.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/float.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
+CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj: /home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.c \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/FreeRTOSConfig.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/stm32h7xx_hal_conf.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_version.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/core_cm7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/mpu_armv7.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+  /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/struct_typedef.h \
+  /home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/math.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h
+
+
+/home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088Middleware.c:
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.c:
 
@@ -3308,21 +3800,19 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/kalman/kalman_filter.c:
 
+/home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.c:
+
 /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.c:
 
+/home/ubuntu/文档/GitHub/DM-bot/User/APP/ps2_task.c:
+
 /home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisR_task.c:
-
-/home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisR_task.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Lib/user_lib.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Controller/controller.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_PWM.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/User/APP/INS_task.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h:
 
@@ -3352,13 +3842,13 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:
 
-/home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisL_task.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c:
-
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c:
 
 /home/ubuntu/文档/GitHub/DM-bot/Core/Src/fdcan.c:
 
@@ -3372,21 +3862,25 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_inverse_f32.c:
 
-/home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
-
 /home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088driver.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h:
 
 /usr/include/newlib/strings.h:
 
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h:
+
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h:
 
@@ -3428,6 +3922,8 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /usr/include/newlib/machine/_types.h:
 
+/home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisR_task.h:
+
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math_types.h:
@@ -3437,12 +3933,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 /usr/include/newlib/_newlib_version.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/User/APP/observe_task.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/PID/pid.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Core/Src/spi.c:
 
 /usr/include/newlib/_ansi.h:
 
@@ -3474,6 +3964,10 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.h:
 
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/VMC/VMC_calc.h:
+
 /home/ubuntu/文档/GitHub/DM-bot/Core/Src/tim.c:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h:
@@ -3498,15 +3992,25 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_mult_f32.c:
 
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h:
+
 /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/list.c:
 
 /usr/include/newlib/sys/lock.h:
 
 /usr/include/newlib/sys/_locale.h:
 
+/home/ubuntu/文档/GitHub/DM-bot/User/Devices/DM_Motor/dm4310_drv.h:
+
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Core/Inc/gpio.h:
 
 /usr/include/newlib/machine/ieeefp.h:
 
@@ -3540,8 +4044,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Core/FastMathFunctions/arm_sin_f32.c:
 
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c:
-
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Include/cmsis_gcc.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_init_f32.c:
@@ -3556,9 +4058,7 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /usr/include/newlib/signal.h:
 
-/usr/lib/gcc/arm-none-eabi/9.2.1/include/float.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Core/Src/main.c:
+/home/ubuntu/文档/GitHub/DM-bot/Core/Src/freertos.c:
 
 /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/arm_math.h:
 
@@ -3580,15 +4080,11 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /usr/include/newlib/sys/timespec.h:
 
-/home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c:
-
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c:
 
+/home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Core/MatrixFunctions/arm_mat_sub_f32.c:
+
 /home/ubuntu/文档/GitHub/DM-bot/CMSIS/DSP/Inc/dsp/filtering_functions.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Core/Inc/gpio.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c:
 
 /usr/include/newlib/sys/features.h:
 
@@ -3608,10 +4104,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /usr/include/newlib/stdio.h:
 
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Core/Inc/spi.h:
-
 /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
@@ -3630,6 +4122,32 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /home/ubuntu/文档/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
 
+/home/ubuntu/文档/GitHub/DM-bot/User/APP/INS_task.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/APP/chassisL_task.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/Core/Src/spi.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/PID/pid.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/APP/observe_task.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/APP/ps2_task.h:
+
+/usr/include/newlib/alloca.h:
+
+/usr/include/newlib/machine/stdlib.h:
+
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/float.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/Core/Src/main.c:
+
+/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/Core/Inc/spi.h:
+
 /home/ubuntu/文档/GitHub/DM-bot/User/Algorithm/mahony/mahony_filter.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/User/Bsp/can_bsp.c:
@@ -3639,10 +4157,6 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c:
 
 /usr/include/newlib/sys/_timespec.h:
-
-/usr/include/newlib/alloca.h:
-
-/usr/include/newlib/machine/stdlib.h:
 
 /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
 
@@ -3666,23 +4180,17 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /usr/include/newlib/sys/_stdint.h:
 
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c:
-
 /home/ubuntu/文档/GitHub/DM-bot/Core/Inc/main.h:
 
 /usr/include/newlib/sys/_timeval.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c:
 
 /usr/include/newlib/sys/sched.h:
 
 /usr/include/newlib/sys/select.h:
 
 /usr/include/newlib/sys/stat.h:
+
+/home/ubuntu/文档/GitHub/DM-bot/User/Devices/BMI088/BMI088reg.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h:
 
@@ -3706,9 +4214,9 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c:
 
-/usr/include/newlib/time.h:
-
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:
+
+/usr/include/newlib/time.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Core/Src/sysmem.c:
 
@@ -3719,9 +4227,3 @@ CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Controller/controller.c.obj: /home/ubun
 /usr/include/newlib/sys/_types.h:
 
 /home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c:
-
-/home/ubuntu/文档/GitHub/DM-bot/User/Bsp/bsp_dwt.h:
-
-/home/ubuntu/文档/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c:

@@ -106,6 +106,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d"
   "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
   "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d"
+  "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/Extended_PID.c.obj"
+  "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/Extended_PID.c.obj.d"
   "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/INS_task.c.obj"
   "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/INS_task.c.obj.d"
   "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/APP/chassisL_task.c.obj"
