@@ -2,10 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/User/APP/INS_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/APP/chassisR_task.h" charset="GBK" />
     <file url="file://$PROJECT_DIR$/User/APP/observe_task.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/User/Algorithm/VMC/VMC_calc.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/User/Algorithm/VMC/VMC_calc.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/Bsp/bsp_dwt.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/User/Bsp/can_bsp.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/Devices/DM_Motor/dm4310_drv.c" charset="GBK" />
     <file url="mock:///INS_task.c" charset="GBK" />
     <file url="mock:///ps2_task.c" charset="GBK" />
   </component>

@@ -12,6 +12,7 @@
 extern INS_t INS;
 PID_t PID_Example;
 Joint_Motor_t Motor;
+float current_time = 0;
 
 void Extended_PID_task(void)
 {
@@ -23,7 +24,8 @@ void Extended_PID_task(void)
     Extended_PID_Init(&Motor, &PID_Example);
     while(1)
     {
-        PID_Calculate(&PID_Example, )
+        current_time = DWT_GetTimeline_s();
+        // PID_Calculate(&PID_Example, )
         speed_ctrl(&hfdcan1, Motor.para.id, 0);
         osDelay(1);
     }
