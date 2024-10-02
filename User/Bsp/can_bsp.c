@@ -3,12 +3,15 @@
 #include "dm4310_drv.h"
 #include "string.h"
 #include "chassisR_task.h"
+#include "Extended_PID.h"
 
 FDCAN_RxHeaderTypeDef RxHeader1;
 uint8_t g_Can1RxData[64];
 
 FDCAN_RxHeaderTypeDef RxHeader2;
 uint8_t g_Can2RxData[64];
+
+extern Joint_Motor_t Motor;
 
 void FDCAN1_Config(void)
 {
@@ -144,17 +147,20 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
     if(hfdcan->Instance == FDCAN1)
     {
       /* Retrieve Rx messages from RX FIFO0 */
-			memset(g_Can1RxData, 0, sizeof(g_Can1RxData));	//接收前先清空数组	
+      memset(g_Can1RxData, 0, sizeof(g_Can1RxData));	//接收前先清空数组
       HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &RxHeader1, g_Can1RxData);
 			
-			switch(RxHeader1.Identifier)
-			{
+      switch(RxHeader1.Identifier)
+      {
         case 3 :dm4310_fbdata(&chassis_move.joint_motor[0], g_Can1RxData,RxHeader1.DataLength);break;
-        case 4 :dm4310_fbdata(&chassis_move.joint_motor[1], g_Can1RxData,RxHeader1.DataLength);break;	         	
-				case 0 :dm6215_fbdata(&chassis_move.wheel_motor[0], g_Can1RxData,RxHeader1.DataLength);break;
-				default: break;
-			}			
-	  }
+        case 4 :dm4310_fbdata(&chassis_move.joint_motor[1], g_Can1RxData,RxHeader1.DataLength);break;
+//        case 0 :dm6215_fbdata(&chassis_move.wheel_motor[0], g_Can1RxData,RxHeader1.DataLength);break;
+          case 0:
+              dm4310_fbdata(&Motor, g_Can1RxData, RxHeader1.DataLength);
+              break;
+        default: break;
+      }
+    }
   }
 }
 

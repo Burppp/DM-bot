@@ -190,87 +190,87 @@
 			[
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Core/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Drivers/CMSIS/Include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/CMSIS/DSP/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/CMSIS/DSP/Inc/dsp"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc/dsp"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/EKF"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/kalman"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/mahony"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/PID"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/PID"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/VMC"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/VMC"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/APP"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Bsp"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Controller"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Controller"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Devices/BMI088"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Devices/DM_Motor"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/DM_Motor"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Lib"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Lib"
 				}
 			],
 			"language" : "C",
@@ -448,87 +448,87 @@
 			[
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Core/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Core/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Device/ST/STM32H7xx/Include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/Drivers/CMSIS/Include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/CMSIS/DSP/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/CMSIS/DSP/Inc/dsp"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/CMSIS/DSP/Inc/dsp"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/EKF"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/EKF"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/kalman"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/kalman"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/mahony"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/mahony"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/PID"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/PID"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Algorithm/VMC"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Algorithm/VMC"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/APP"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/APP"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Bsp"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Bsp"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Controller"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Controller"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Devices/BMI088"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/BMI088"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Devices/DM_Motor"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Devices/DM_Motor"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/User/Lib"
+					"path" : "C:/Users/Lumos/Documents/GitHub/DM-bot/User/Lib"
 				}
 			],
 			"language" : "ASM",
@@ -563,7 +563,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/home/ubuntu/\u6587\u6863/GitHub/DM-bot/cmake-build-debug/CtrlBoard-H7_IMU.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/Lumos/Documents/GitHub/DM-bot/cmake-build-debug/CtrlBoard-H7_IMU.map",
 				"role" : "flags"
 			},
 			{
@@ -588,7 +588,7 @@
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "/home/ubuntu/\u6587\u6863/GitHub/DM-bot/STM32H723VGTX_FLASH.ld",
+				"fragment" : "C:/Users/Lumos/Documents/GitHub/DM-bot/STM32H723VGTX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

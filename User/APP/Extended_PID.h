@@ -10,6 +10,6 @@
 #include "controller.h"
 
 void Extended_PID_task(void);
-void Extended_PID_Init(Joint_Motor_t *_Motor, PID_t *_PID);
+void Extended_PID_Init(Joint_Motor_t *_Motor, PID_t *_PID, FuzzyRule_t *_Rule);
 
 #endif //EXTENDED_PID_H

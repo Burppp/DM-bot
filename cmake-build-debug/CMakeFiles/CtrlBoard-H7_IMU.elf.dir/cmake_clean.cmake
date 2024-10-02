@@ -145,6 +145,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj"
   "CMakeFiles/CtrlBoard-H7_IMU.elf.dir/User/Lib/user_lib.c.obj.d"
   "CtrlBoard-H7_IMU.elf"
+  "CtrlBoard-H7_IMU.elf.manifest"
   "CtrlBoard-H7_IMU.elf.pdb"
 )
 

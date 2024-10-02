@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/User/Bsp/bsp_dwt.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/User/Bsp/can_bsp.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/User/Devices/DM_Motor/dm4310_drv.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/Lib/user_lib.h" charset="GBK" />
     <file url="mock:///INS_task.c" charset="GBK" />
     <file url="mock:///ps2_task.c" charset="GBK" />
   </component>
